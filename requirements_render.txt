@@ -1,18 +1,9 @@
-# Lightweight requirements for Render deployment
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
-
-# Core ML dependencies (lighter versions)
+deepface==0.0.79
 opencv-python-headless==4.8.1.78
 numpy==1.26.4
-
-Pillow==10.0.1
-
-# Face recognition (lighter)
-deepface==0.0.79
-tensorflow-cpu==2.13.0
-
-# Data handling
-pandas==2.0.3
-
+Pillow==10.3.0
+setuptools>=65.5.1
+wheel>=0.41.0
