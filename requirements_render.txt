@@ -5,7 +5,8 @@ python-multipart==0.0.6
 
 # Core ML dependencies (lighter versions)
 opencv-python-headless==4.8.1.78
-numpy==1.24.3
+numpy==1.26.4
+
 Pillow==10.0.1
 
 # Face recognition (lighter)
@@ -14,3 +15,4 @@ tensorflow-cpu==2.13.0
 
 # Data handling
 pandas==2.0.3
+
